@@ -19,6 +19,10 @@ public class WeatherSummary {
      */
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        
+        while(s.hasNextDouble())
+        {
+            double temp = s.nextDouble();
+            System.out.println(temp);
+        }
     }
 }
